@@ -1,8 +1,9 @@
 (function (){
-'use strict'
+'use strict';
   angular.module('MyfirstApp', [])
 
-  .controllerX('MyfirstController' function functionName() {
-
-  })
+  .controller('MyfirstController', function ($scope) {
+    $scope.name = "Prosper";
+    $scope.sayHello
+  });
 })();
