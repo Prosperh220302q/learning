@@ -1,6 +1,8 @@
 (function (){
+'use strict'
+  angular.module('MyfirstApp', [])
 
-  angular.module('MyfirstApp', []);
+  .controllerX('MyfirstController' function functionName() {
 
-  .controllerX('MyfirstController')
+  })
 })();
